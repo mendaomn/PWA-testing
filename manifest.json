@@ -1,0 +1,16 @@
+{
+  "short_name": "Timer Offline",
+  "name": "Timer Offline",
+  "start_url": "./",
+  "icons": [
+    {
+      "src": "/images/icon.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#fcfcfc",
+  "theme_color": "#333",
+  "display": "standalone",
+  "orientation": "portrait"
+}
