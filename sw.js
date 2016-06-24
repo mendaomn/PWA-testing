@@ -4,10 +4,10 @@ self.addEventListener( "fetch", onfetch );
 function oninstall( e ) {
   caches.open( "timeroffline" ).then(function( cache ) {
     return cache.addAll([
-      "/",
-      "/index.html",
-      "/src/style.css",
-      "/build/bundle.js"
+      "./",
+      "./index.html",
+      "./src/style.css",
+      "./build/bundle.js"
     ]);
   });
 }
